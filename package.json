@@ -1,17 +1,25 @@
 {
-  "author": {
-    "name": "flynnjoffray"
-  },
   "name": "epictuio",
-  "description": "a simple upd osc parser that returns an event emitter",
   "version": "0.0.1",
+  "description": "a simple UDP OSC parser that returns an event emitter of TUIO data",
+  "main": "tuio.js",
+  "dependencies": {
+    "jspack": "~0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git://github.com/nucleardreamer/epic-tuio.git"
+    "url": "https://github.com/nucleardreamer/epic-tuio.git"
   },
-  "dependencies": {
-    "jspack": "0.0.1", 
-  },
-  "main": "./tuio.js",
-  "readmeFilename": "README"
+  "keywords": [
+    "tuio",
+    "osc"
+  ],
+  "author": "Flynn Joffray",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f6cc06cd93ad800dcf40a10bb401ca5bae0fa051"
 }
