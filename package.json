@@ -1,0 +1,17 @@
+{
+  "author": {
+    "name": "flynnjoffray"
+  },
+  "name": "epictuio",
+  "description": "a simple upd osc parser that returns an event emitter",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nucleardreamer/epic-tuio.git"
+  },
+  "dependencies": {
+    "jspack": "0.0.1", 
+  },
+  "main": "./tuio.js",
+  "readmeFilename": "README"
+}
