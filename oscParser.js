@@ -1,4 +1,5 @@
 // OSC parsing based on node-osc
+// forked from https://npmjs.org/package/tuio
 
 module.exports = (function() {
     var jspack = require("jspack").jspack,
